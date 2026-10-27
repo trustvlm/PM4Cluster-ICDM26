@@ -136,6 +136,51 @@ h6 {
   background-color: #f6f7fd;
 }
 
+.workshop-details {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 0 32px;
+  border-top: 4px solid #f82249;
+  background: #f6f7fd;
+}
+
+.workshop-detail {
+  min-width: 0;
+  padding: 22px 24px 24px;
+  text-align: center;
+}
+
+.workshop-detail + .workshop-detail {
+  border-left: 1px solid #d9dce5;
+}
+
+.workshop-detail-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #f82249;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.workshop-detail strong {
+  display: block;
+  color: #0e1b4d;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+@media (max-width: 767px) {
+  .workshop-details {
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-detail + .workshop-detail {
+    border-top: 1px solid #d9dce5;
+    border-left: 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # Button
 --------------------------------------------------------------*/
