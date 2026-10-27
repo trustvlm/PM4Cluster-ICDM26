@@ -170,6 +170,13 @@ h6 {
   line-height: 1.35;
 }
 
+.workshop-detail small {
+  display: block;
+  margin-top: 6px;
+  color: #6c7180;
+  font-size: 13px;
+}
+
 @media (max-width: 767px) {
   .workshop-details {
     grid-template-columns: 1fr;
