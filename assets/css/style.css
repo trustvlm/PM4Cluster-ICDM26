@@ -1144,3 +1144,51 @@ h6 {
   font-size: 13px;
   color: #ddd;
 }
+#speakers .organizer-grid--compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 0 22px;
+}
+
+#speakers .organizer-card {
+  width: 180px;
+  text-align: center;
+}
+
+#speakers .organizer-card img,
+#speakers .organizer-photo-placeholder {
+  display: block;
+  width: 140px;
+  height: 160px;
+  margin: 0 auto 10px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#speakers .organizer-card strong,
+#speakers .organizer-card span {
+  display: block;
+  line-height: 1.35;
+}
+
+#speakers .organizer-card span {
+  margin-top: 4px;
+  font-size: 0.85rem;
+}
+
+#speakers .organizer-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #55728b;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (max-width: 575px) {
+  #speakers .organizer-grid--compact {
+    justify-content: center;
+  }
+}
