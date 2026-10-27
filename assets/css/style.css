@@ -1148,6 +1148,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
   margin: 0 0 22px;
 }
 
