@@ -189,8 +189,13 @@ h6 {
 }
 
 .keynote-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 190px;
   background: #f6f7fd;
+  color: #6c7180;
+  font-size: 14px;
 }
 
 .keynote-content {
