@@ -136,6 +136,42 @@ h6 {
   background-color: #f6f7fd;
 }
 
+.program-table {
+  margin-bottom: 64px;
+  font-size: 15px;
+}
+
+.program-table th:first-child,
+.program-table td:first-child {
+  white-space: nowrap;
+}
+
+.accepted-paper-list {
+  padding-left: 1.5rem;
+  margin-bottom: 64px;
+}
+
+.accepted-paper-list li {
+  padding: 18px 20px;
+  border-bottom: 1px solid #e5e7ed;
+}
+
+.accepted-paper-list li::marker {
+  color: #f82249;
+  font-weight: 700;
+}
+
+.accepted-paper-list strong,
+.accepted-paper-list span {
+  display: block;
+  line-height: 1.55;
+}
+
+.accepted-paper-list span {
+  margin-top: 6px;
+  color: #6c7180;
+}
+
 .workshop-details {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
