@@ -198,6 +198,12 @@ h6 {
   font-size: 14px;
 }
 
+.keynote-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .keynote-content {
   padding: 24px;
 }
